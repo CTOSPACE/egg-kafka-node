@@ -1,5 +1,5 @@
 {
-  "name": "egg-kafka-node",
+  "name": "egg-xkafka",
   "version": "1.0.3",
   "description": "kafka plugin for egg.js",
   "eggPlugin": {
@@ -21,13 +21,17 @@
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "webstorm-disable-index": "^1.2.0"
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -54,12 +58,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JohnApache/egg-kafka-node.git"
+    "url": "git+https://github.com/CTOSPACE/egg-kafka-node.git"
   },
   "bugs": {
-    "url": "https://github.com/JohnApache/egg-kafka-node/issues"
+    "url": "https://github.com/CTOSPACE/egg-kafka-node/issues"
   },
-  "homepage": "https://github.com/JohnApache/egg-kafka-node#readme",
-  "author": "JohnApache",
-  "license": "MIT"
+  "homepage": "https://github.com/CTOSPACE/egg-kafka-node#readme",
+  "author": "lvling",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://maven.batcloud.info/repository/npm/"
+  }
 }
