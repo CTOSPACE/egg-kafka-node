@@ -15,22 +15,22 @@
     "egg-kafka-node"
   ],
   "dependencies": {
-    "eventsproxy": "^1.3.0",
-    "kafka-node": "^4.0.0"
+    "eventsproxy": "^1.3.2",
+    "kafka-node": "^4.1.3"
   },
   "devDependencies": {
-    "autod": "^3.0.0",
-    "autod-egg": "^1.0.0",
-    "egg": "^2.16.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.16.0",
-    "eslint-config-egg": "^7.1.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
+    "autod": "^3.1.0",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.22.2",
+    "egg-bin": "^4.13.0",
+    "egg-ci": "^1.12.0",
+    "egg-mock": "^3.23.1",
+    "eslint": "^6.0.1",
+    "eslint-config-egg": "^7.4.1",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0"
   },
   "engines": {
